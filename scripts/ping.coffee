@@ -28,4 +28,4 @@ module.exports = (robot) ->
     msg.send "You're welcome."
 
   robot.respond /ありがと(.*)/i, (msg) ->
-    msg.send "どういたしまして"
+    msg.send "どういたしまして〜"
