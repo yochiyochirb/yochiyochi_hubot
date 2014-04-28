@@ -6,7 +6,7 @@ module.exports = (robot) ->
     response.send msg
  
   # *(sec) *(min) *(hour) *(day) *(month) *(day of the week)
-  new cronJob('0 0 * * * 1-5', () ->
+  new cronJob('0 0,15,30,45 * * * 1-5', () ->
     currentTime = new Date
     send 'hubot', "current time is #{new Date().currentTime.getHours()}:00."
   ).start()
