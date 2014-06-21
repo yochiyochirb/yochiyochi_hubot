@@ -21,6 +21,6 @@ cronJob = require('cron').CronJob
 
 module.exports = (robot) ->
   # *(sec) *(min) *(hour) *(day) *(month) *(day of the week)
-  new cronJob('0 05 21 * * *', () ->
+  new cronJob('0 0 * * * *', () ->
     robot.send {room: '#hubot'}, '@yucato_ cron によって発言しています'
   ).start()
