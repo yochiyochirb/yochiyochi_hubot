@@ -29,6 +29,6 @@ module.exports = (robot) ->
     robot.send {room: '#yucao24hours_only'}, '朝会です'
   ).start()
 
-  new cronJob('0 0 21 * * *', () ->
+  new cronJob('0 05 21 * * *', () ->
     robot.send {room: '#hubot'}, '@yucato_ cron によって発言しています'
   ).start()
