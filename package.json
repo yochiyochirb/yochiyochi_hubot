@@ -36,6 +36,7 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-idobata": "0.0.2",
     "cron": "1.0.0"
+    "sudden-death": "~0.1.0"
   },
   "engines": {
     "node": ">= 0.8.x",
