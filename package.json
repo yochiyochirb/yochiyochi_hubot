@@ -22,21 +22,19 @@
   },
   "dependencies": {
     "aws2js": ">= 0.8.2",
+    "cron": "1.0.0",
     "cron ": ">= 0.8.0",
     "gitio": ">= 1.0.1",
     "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-idobata": "0.0.2",
     "hubot-phonetic-alphabet": "^0.1.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-tantanmen": "^0.1.1",
     "jsdom": ">= 0.10.5",
     "moment": ">= 1.7.0",
+    "sudden-death": "~0.1.0",
     "underscore": ">= 1.6.0",
-    "xml2js": ">= 0.4.3",
-    "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-idobata": "0.0.2",
-    "cron": "1.0.0",
-    "sudden-death": "~0.1.0"
+    "xml2js": ">= 0.4.3"
   },
   "engines": {
     "node": ">= 0.8.x",
